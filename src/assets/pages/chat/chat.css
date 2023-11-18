@@ -1,0 +1,226 @@
+#chatPage * {
+    box-sizing: border-box;
+
+
+}
+
+#chatPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.ChatStatus * {
+    margin: 0px;
+}
+
+.cr-left {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+/* Profit */
+.chatProfit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.chatProfit h1 {
+    background: linear-gradient(87deg, #DB00FF 5.19%, #8B62FF 91.04%);
+    font-size: 14px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatProfit p {
+    font-size: 10px;
+    text-align: center;
+    width: fit-content;
+    color: #C7C7C7;
+    font-weight: 400;
+}
+
+
+.ChatStatus {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 99px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    background: linear-gradient(0deg, #0F1021 0%, #010202 100%);
+}
+
+
+#todayMsgDate {
+    margin: 10px 0px;
+    align-self: center;
+    width: fit-content;
+    padding: 5px 11px;
+    border-radius: 999px;
+    background: linear-gradient(0deg, #0F1021 0%, #010202 100%);
+}
+
+
+
+#todayMsgDate p {
+    font-size: 12px;
+    margin: 0px;
+
+}
+
+/* Message */
+
+#message * {
+    margin: 0px;
+}
+
+#message {
+    align-self: flex-start;
+
+    display: flex;
+}
+
+#m-analystPfp {
+    width: 31px;
+    margin-right: 5px;
+    border-radius: 999px;
+    height: 31px;
+}
+
+#m-content {
+
+    margin: 0px 35px 0px 0px;
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 50px 10px 10px;
+    border-radius: 8px;
+    background-color: #202C33;
+    gap: 7px;
+    position: relative;
+}
+
+#m-userinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.greenGradientText {
+    background: linear-gradient(87deg, #DB00FF 5.19%, #8B62FF 91.04%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#m-userinfo h1 {
+    font-size: 16px;
+}
+
+#m-userinfo h3 {
+    color: #A6ABAD;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#m-txtcontent {
+    font-size: 14px;
+    color: white;
+}
+
+#m-clock {
+
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    color: #A6ABAD;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.typing-container {
+    animation: fadeBlink 3s infinite;
+}
+
+@keyframes fadeBlink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-pop {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fade-pop.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* IFRAME */
+
+
+#iframeCasino {
+    margin-top: 18px;
+    width: 100%;
+    height: 700px;
+    outline: none;
+    border: none;
+    margin-bottom: 70px;
+    border-radius: 9px;
+}
+
+.iframe-overlay {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 9;
+    pointer-events: none;
+
+}
+
+@media(max-width:400px) {
+
+
+    .ChatStatus {
+        border-radius: 8%;
+        flex-direction: column;
+        display: flex
+    }
+
+    .cr-left {
+        margin-bottom: 6px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}

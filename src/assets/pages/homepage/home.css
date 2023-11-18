@@ -1,0 +1,127 @@
+#home {
+
+  margin-bottom: 120px;
+}
+
+#mainHeading {
+  margin-top: 1.25rem;
+  text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Special Text Span */
+.specialText {
+  background-color: var(--Gradient);
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+/* Game Grid */
+.gameGrid {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+
+
+.categorysection>h1 {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 18px;
+
+
+  background: linear-gradient(87deg, #0085FF 5.19%, #62E3FF 91.04%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.category-view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* Badge General Style */
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid lime;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+#signalsIcon {
+
+  color: red;
+}
+
+.liveGamesGrid {
+  margin-bottom: 32px;
+}
+
+.showCards {
+  margin-top: 24px;
+}
+
+
+.gameSwiper .swiper-slide {
+  margin-left: 10px;
+  width: fit-content !important;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.gameSwiper .swiper-slide:hover {
+  transform: scale(0.98);
+}
+
+.gameSwiper .swiper-slide:active {
+  transform: scale(0.93);
+}
+
+.gameSwiper .swiper-slide:nth-child(1) {}
+
+/* cta */
+
+.ctaSection {
+  margin-bottom: 120px;
+
+}
+
+.cta-vip02-stroke {
+  cursor: pointer;
+  padding: 1px;
+  max-width: 600px;
+  border-radius: 12px;
+  background: linear-gradient(141deg, #FFDB00 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.cta-vip02 {
+  width: 100%;
+  border-radius: 12px;
+
+  max-width: 600px;
+  background: url("https://i.postimg.cc/VkTLpgz8/cta.webp");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  height: 100px;
+  box-shadow: 0px 4px 20px 0px rgba(219, 188, 0, 0.20);
+
+}

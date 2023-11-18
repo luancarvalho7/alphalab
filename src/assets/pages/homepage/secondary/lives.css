@@ -1,0 +1,87 @@
+.bglives{
+    background: url("https://i.postimg.cc/C17trhDP/bg-002.webp");
+    background-position-x: center, -10px;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+#livesPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+    overflow: hidden;
+}
+
+.livesContent *{
+   text-align: center;
+}
+.livesContent{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+#liveImg{
+    position: absolute;
+    top: -220px;
+}
+.lh-txt{
+    position: relative;
+    top: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lh-txt h3{
+    margin-top: 6px;
+    font-weight: 400;
+    color: #C7C7C7;
+}
+.h3W{
+    color: white;
+}
+.bullsCta{
+    font-size: 18px;
+    border-radius: 999px;
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 999px;
+    box-shadow: 0px 2px 20px 0px rgba(239, 19, 251, 0.35);
+}
+.warning{
+    text-align: center;
+    border-radius: 6px;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    background: linear-gradient(180deg, #151100 0%, #000 100%);
+    width: 350px;
+    max-width: 85vw;
+}
+.warning p svg{
+    margin-right: 5px;
+}
+.warningstroke{
+    padding: 1px;
+    background: linear-gradient(180deg, #FFB700 0%, rgba(0, 0, 0, 0.00) 100%);
+    border-radius: 6px;
+}
+
+#livesiFrame{
+    margin-top: 32px;
+    width: 85vw;
+    height: 500px;
+    border-radius: 6px;
+    border: none
+}
+.if-disabled{
+    display: none;
+}
+

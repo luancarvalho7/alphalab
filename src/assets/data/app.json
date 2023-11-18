@@ -1,0 +1,34 @@
+{
+    "logo": "https://i.postimg.cc/L8JQSdgX/logo.webp",
+    "affLink": "https://go.aff.bullsbetaffiliate.com/o42eugpk",
+    "vipCheckout": "https://checkout.perfectpay.com.br/pay/PPU38CNH5PD",
+
+    "banners": {
+        "img2k": "https://i.postimg.cc/4ddQhJFp/2k.webp",
+        "imgcommunity": "https://i.postimg.cc/gJTqVffQ/Untitled-2.webp",
+        "imgvip": "https://i.postimg.cc/Hn80B6mx/Vip.webp"
+    },
+
+
+    "pageheaderes": {
+        "bonus": "https://i.postimg.cc/zXZ7B15P/webp2.webp",
+        "lives": "https://i.postimg.cc/nVQTpL8D/webp1.webp"
+    },
+
+    "vipcta":"https://i.postimg.cc/VNJ0nDcH/vipcta.webp",
+    "telegram": "https://i.postimg.cc/nVQTpL8D/webp1.webp",
+    "community": "https://chat.whatsapp.com/DSuGgjJsNRoGYlJT0oMew5",
+    "memberArea": [
+        {
+            "title": "",
+            "description": "",
+            "thumb": "",
+            "link": ""
+        }
+    ],
+    "extrapages": {
+        "bonus": true,
+        "lives": true,
+        "tutorial": false
+    }
+}

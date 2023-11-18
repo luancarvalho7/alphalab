@@ -1,0 +1,160 @@
+.cardRoom * {
+    margin: 0px;
+
+}
+
+.cardRoom {
+    cursor: pointer;
+    user-select: none;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+    background: linear-gradient(0deg, #0F1021 0%, #010202 100%);}
+
+.cr-stroke {
+    width: fit-content;
+    border-radius: 5px;
+    padding: 1px;
+    background: linear-gradient(0deg, #A007FF 0%, #232124 71.96%);}
+
+.cardDenied {
+    background: linear-gradient(0deg, #7B7B7C 0%, #141416 74.47%);
+}
+
+.cardDenied .cardRoom {
+    background: linear-gradient(0deg, #1A1A1A 0%, #030305 49.8%);
+}
+
+.cardDenied .cardRoom .joinBtn {
+    background: linear-gradient(87deg, #FFF 5.19%, #D3D3D3 91.04%);
+}
+
+@keyframes pulse {
+    0% {
+        filter: saturate(0.20);
+    }
+
+    50% {
+        filter: saturate(0);
+    }
+
+    100% {
+        filter: saturate(0.20);
+    }
+}
+
+
+
+.cardDenied .gameImage {
+    transform: scale(1);
+    filter: saturate(0);
+    animation: pulse 2s infinite;
+}
+
+.cardDenied .cr-profit h1,
+.cardDenied .status-players,
+.cardDenied .cr-userProfile {
+    filter: saturate(0);
+}
+
+
+.status-players {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+
+    padding: 4px 8px;
+    border-radius: 999px;
+    height: fit-content;
+
+    background: linear-gradient(87deg, rgba(81, 0, 255, 0.15) 5.19%, rgba(165, 123, 255, 0.15) 91.04%);
+}
+
+.status-players p {
+    font-size: 10px;
+}
+
+.status-circle {
+    width: 7px;
+    height: 7px;
+    border-radius: 999px;
+    background: var(--Gradient, linear-gradient(87deg, #24FF00 5.19%, #7BFFB0 91.04%));
+
+}
+
+/*  
+User Profile*/
+
+.cr-userProfile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cr-userProfile img {
+    width: 31px;
+    height: 31px;
+    border-radius: 999px;
+}
+
+.cr-userProfile h1 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* Profit */
+.cr-profit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cr-profit h1 {
+    background: linear-gradient(87deg, #DB00FF 5.19%, #8B62FF 91.04%);
+    font-size: 14px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cr-profit p {
+    font-size: 10px;
+    text-align: center;
+    width: fit-content;
+    color: #C7C7C7;
+    font-weight: 400;
+}
+
+/* image */
+
+.gameImage {
+    width: 120px;
+    height: 110px;
+    border-radius: 9px;
+}
+
+/* button */
+
+.joinBtn {
+
+
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 14px;
+
+    width: 100%;
+
+    outline: none;
+    cursor: pointer;
+    border: none;
+
+    padding: 5px 30px;
+}

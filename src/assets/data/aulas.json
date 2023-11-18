@@ -1,0 +1,134 @@
+[
+    {
+        "Image": "https://i.postimg.cc/d0mXdsb4/01.webp",
+        "Title": "Aula 1 - Comece por aqui!",
+        "Description": "Opa e ai tudo bem? Nesta primeira aula vocês vão entender os primeiros passos para começar a lucrar junto comigo e meu time de analistas",
+        "url": "https://www.youtube.com/embed/K3Qi13QSJHk?si=d6_DdJrVmvHE-Cym",
+        "Comments": [
+            {
+                "name": "John Doe",
+                "pfp": "profile_pic_url_1.jpg",
+                "comment": "Great video, really enjoyed it!",
+                "likes": "150",
+                "loves": "40"
+            },
+            {
+                "name": "Jane Smith",
+                "pfp": "profile_pic_url_2.jpg",
+                "comment": "Very informative, thanks!",
+                "likes": "200",
+                "loves": "60"
+            }
+        ]
+    },
+    {
+        "Image": "https://i.postimg.cc/NFVPY5Xf/sinais.webp",
+        "Title": "Como achar os sinais e jogar",
+        "Description": "",
+        "url": "https://www.youtube.com/embed/5HuXXas5VY8?si=kG5cg19GkhBCuFiV",
+        "Comments": [
+            {
+                "name": "Alice Brown",
+                "pfp": "profile_pic_url_3.jpg",
+                "comment": "I learned a lot from this!",
+                "likes": "175",
+                "loves": "80"
+            },
+            {
+                "name": "Bob Johnson",
+                "pfp": "profile_pic_url_4.jpg",
+                "comment": "Awesome tutorial, keep it up!",
+                "likes": "220",
+                "loves": "95"
+            }
+        ]
+    },
+    {
+        "Image": "https://i.postimg.cc/hPz5s1FJ/recupere.webp",
+        "Title": "Recupere o que perdeu com apostas",
+        "Description": "",
+        "url": "",
+        "Comments": [
+            {
+                "name": "Alice Brown",
+                "pfp": "profile_pic_url_3.jpg",
+                "comment": "I learned a lot from this!",
+                "likes": "175",
+                "loves": "80"
+            },
+            {
+                "name": "Bob Johnson",
+                "pfp": "profile_pic_url_4.jpg",
+                "comment": "Awesome tutorial, keep it up!",
+                "likes": "220",
+                "loves": "95"
+            }
+        ]
+    },
+    {
+        "Image": "https://i.postimg.cc/bYF51F5c/mentalidadedesucesso.webp",
+        "Title": "Mentalidade de sucesso para não quebrar a banca",
+        "Description": "",
+        "url": "",
+        "Comments": [
+            {
+                "name": "Alice Brown",
+                "pfp": "profile_pic_url_3.jpg",
+                "comment": "I learned a lot from this!",
+                "likes": "175",
+                "loves": "80"
+            },
+            {
+                "name": "Bob Johnson",
+                "pfp": "profile_pic_url_4.jpg",
+                "comment": "Awesome tutorial, keep it up!",
+                "likes": "220",
+                "loves": "95"
+            }
+        ]
+    },
+    {
+        "Image": "https://i.postimg.cc/ZRwM7fKN/forrar.webp",
+        "Title": "Estretégias Para forrar",
+        "Description": "",
+        "url": "",
+        "Comments": [
+            {
+                "name": "Alice Brown",
+                "pfp": "profile_pic_url_3.jpg",
+                "comment": "I learned a lot from this!",
+                "likes": "175",
+                "loves": "80"
+            },
+            {
+                "name": "Bob Johnson",
+                "pfp": "profile_pic_url_4.jpg",
+                "comment": "Awesome tutorial, keep it up!",
+                "likes": "220",
+                "loves": "95"
+            }
+        ]
+    },
+    {
+        "Image": "https://i.postimg.cc/nzFW18ZZ/analistas.webp",
+        "Title": "Seja um Analista",
+        "Description": "",
+        "url": "",
+        "Comments": [
+            {
+                "name": "Alice Brown",
+                "pfp": "profile_pic_url_3.jpg",
+                "comment": "I learned a lot from this!",
+                "likes": "175",
+                "loves": "80"
+            },
+            {
+                "name": "Bob Johnson",
+                "pfp": "profile_pic_url_4.jpg",
+                "comment": "Awesome tutorial, keep it up!",
+                "likes": "220",
+                "loves": "95"
+            }
+        ]
+    }
+]

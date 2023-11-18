@@ -1,0 +1,60 @@
+
+#swiperNotis{
+    margin-bottom: 15px;
+}
+.notiSection {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+.notiBadge {
+    border-radius: 999px;
+    padding: 5px 9px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: max-content;
+    gap: 5px;
+    user-select: none;
+    z-index: 3;
+
+}
+
+.swp-notis .swiper-slide{
+    margin: 0px 5px;
+    display: flex;
+    min-width: 250px;
+    width: fit-content;
+    justify-content: center;
+}
+
+.n-blue-stroke {
+    border: 1px solid #00FFDC;
+    background: rgba(75, 184, 169, 0.10);
+
+}
+
+.n-yellow-stroke {
+    border: 1px solid #FFC700;
+    background: rgba(239, 188, 1, 0.10);
+}
+
+.notiBadge h1 {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.n-regular {
+    font-weight: 400;
+}
+
+.n-blue {
+    color: #00FFDC;
+}
+
+.n-yellow {
+    color: #FFC700;
+}

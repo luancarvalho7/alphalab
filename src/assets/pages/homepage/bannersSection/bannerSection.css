@@ -1,0 +1,23 @@
+.bannerSwiper .swiper {
+    height: 100%;
+}
+
+.bannerSwiper .swiper-slide {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerSwiper .swiper-slide img {
+    display: block;
+    width: calc(90vw);
+    height: calc(48.02vw);
+    max-width: 590px;
+    max-height: 315px;
+    object-fit: cover;
+    border-radius: 9px;
+
+}
+

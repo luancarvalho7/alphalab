@@ -1,0 +1,60 @@
+.btnBadge {
+    display: flex;
+    border-radius: 999px;
+    padding: 1px;
+    position: relative;
+    cursor: pointer;
+    min-width: 125px;
+
+}
+
+.bd-content {
+    padding: 6px 20px;
+    box-sizing: border-box;
+    min-width: 125px;
+    justify-content: center;
+    border-radius: 999px;
+    display: flex;
+    background: radial-gradient(132.35% 77.89% at 27.01% -32.21%, #414141 0%, #000 100%);
+    gap: 5px;
+}
+
+.btnBadge h1 {
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.extraBadge {
+    position: absolute;
+
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-radius: 999px;
+    font-size: 8px;
+    padding: 0px 10px;
+}
+
+.eb-live{
+    background: #FF0045;
+
+    box-shadow: 0px 4px 20px 0px rgba(255, 0, 19, 0.25);
+}
+.eb-disabled{
+    color: black;
+    background: white;
+
+    box-shadow: 0px 4px 20px 0px rgba(255, 255, 255, 0.25);
+}
+.extraBadge p{
+    text-align: center;
+    width: max-content;
+}

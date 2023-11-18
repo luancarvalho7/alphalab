@@ -1,0 +1,140 @@
+.bgtutorial {
+    background: url("https://i.postimg.cc/rwshMFmw/am-01.png");
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#tutorialPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+    overflow: hidden;
+}
+
+.tutorialContent * {
+    text-align: center;
+}
+
+.tutorialContent {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+#liveImg {
+    position: absolute;
+    top: -220px;
+}
+
+
+
+/* VIDEO CAROUSSEL
+ */
+.vc-title h2 {
+    font-size: 20px;
+}
+
+.vc-title h3 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.videosCaroussel {
+    width: 100%;
+}
+
+.vc-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    align-items: flex-start;
+}
+
+.tutorialCard {
+    width: 200px;
+    height: 329px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.WatchVideo {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(92.46% 128.32% at -22.69% 31.44%, #1B1B1B 3.68%, #000 100%);
+    border-radius: 9px;
+}
+
+.WatchVideo iframe {
+    width: 100vw;
+    height: 56vw;
+    max-width: 560px;
+    max-height: 315px;
+}
+
+.wv-info {
+    box-sizing: border-box;
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wv-info h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.wv-info h2 {
+    text-align: center;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: #C7C7C7;
+    min-height: 70px;
+}
+
+.wvBtn {
+    padding: 5px 10px;
+    border-radius: 999px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.wv-buttons{
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wvDisabled{
+    opacity: 0;
+}
+
+/* 
+tutorial swiper */
+
+.aulaSwiper .swiper-slide{
+    width: fit-content;
+    margin-left: 20px;
+}
+@media(max-width: 400px) {
+    .bgtutorial {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

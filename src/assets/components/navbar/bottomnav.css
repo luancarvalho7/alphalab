@@ -1,0 +1,65 @@
+.bottomNav {
+    z-index: 10;
+    width: 100%;
+
+    position: fixed;
+    bottom: -1px;
+    padding: 1px 0px 0px 0px;
+    height: 80px;
+    box-sizing: border-box;
+
+    border-radius: 9px 9px 0px 0px;
+
+
+    box-shadow: 0px -5px 25px 0px #000;
+}
+
+.bn-content {
+    box-sizing: border-box;
+
+
+    display: flex;
+    justify-content: space-evenly;
+    border-top: solid 1px #DB00FF ;
+    border-radius: 9px 9px 0px 0px;
+    width: 100%;
+    padding: 10px 15px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.86) ;
+    backdrop-filter: blur(10px);
+}
+
+
+.bn-content * {
+
+    stroke: white;
+}
+
+.bn-btn h3 {
+    text-align: center;
+    color: white;
+    font-size: 500;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.bn-selected h3 {
+    color: #DB00FF ;
+}
+
+.bn-selected svg * {
+    stroke: #DB00FF ;
+}
+
+.bn-btn a {
+    text-decoration: none;
+
+}
+.bn-btn {
+    text-decoration: none;
+    transition: 1s;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}

@@ -1,0 +1,51 @@
+/* Header container */
+.headerContainer {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0.75rem;
+    width: 100%;
+    box-sizing: border-box;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0.30) 100%);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}
+
+/* Logo container */
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 0.75rem;
+}
+
+/* Logo Image */
+.logoImage {
+    max-height: auto;
+    max-width: auto;
+    object-fit: contain;
+}
+
+/* Brand Name */
+.brandName {
+    font-size: 1.25rem;
+    color: white;
+}
+
+/* VIP Access Button */
+.vipButton {
+    border-radius: 999px;
+    padding: 0.5rem 1.25rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+
+    border-radius: 999px;
+    box-shadow: 0px 2px 20px 0px rgba(239, 19, 251, 0.35);
+}

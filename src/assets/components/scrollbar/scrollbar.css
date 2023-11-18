@@ -1,0 +1,16 @@
+#custom-scrollbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: null;
+  }
+  
+  #custom-thumb {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 999px;
+  }
+  

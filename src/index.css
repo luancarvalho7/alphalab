@@ -1,0 +1,37 @@
+.bg-gradient {
+    background: linear-gradient(87deg, #DB00FF 5.19%, #8B62FF 91.04%);}
+
+.txt-gradient {
+    background: linear-gradient(87deg, #DB00FF 5.19%, #8B62FF 91.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.bg-gradientwhite {
+    background: radial-gradient(141.71% 129.73% at 5.29% -8.33%, #636363 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+
+.sectionTitle {
+    margin-top: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.sectionTitle h1 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+/* Games Grid */
+
+.sc-title {
+    font-size: 16px;
+}

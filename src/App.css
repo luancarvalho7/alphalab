@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.borderSpacing {
+  padding: 0px 20px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.headertransition {
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  bottom: 0px;
+  position: absolute;
+}
+.topbgHeader{
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  height: 450px;
+  width: 100%;
+}
+.imgheaderBlock{
+  width: 100%;
+  height: 300px;
+
+}
