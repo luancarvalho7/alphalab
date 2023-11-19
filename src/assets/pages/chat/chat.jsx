@@ -46,24 +46,8 @@ export function ChatPage({
 
         if (game == null) {
 
-            console.log(`xxxxxxx ${home} , ${vipAccess} `)
-            if (vipAccess && inicio==false && home==false) {
-                navigate('/viplion')
-            }
-            else if (v33) {
-                navigate('/v33')
-            }
-            else if (inicio && vipAccess){
-                navigate('/vipsb')
-            }
-            else if (home && vipAccess){
+            if (vipAccess) {
                 navigate('/modevip')
-            }
-            else if (inicio && vipAccess==false){
-                navigate('/inicio')
-            }
-            else if (home && vipAccess==false){
-                navigate('/home')
             }
             else {
                 navigate('/')
