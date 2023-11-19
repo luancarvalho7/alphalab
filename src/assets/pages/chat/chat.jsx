@@ -472,7 +472,7 @@ export function ChatPage({
 
         if (onlinePlayers == 0) {
             setMessage(`Operações encerradas por hoje pessoal! Ate amanhã! <br/>  
-                Hoje deu pra lucrar R$
+                Hoje deu pra lucrar €
 
                 ${today.getHours() > 20 ? `${profit < 1000 ? profit.toString() : (profit / 1000).toLocaleString('en-US', { minimumFractionDigits: 3, maximumFractionDigits: 3 })} ` : `${lastDayProfit < 1000 ? lastDayProfit.toString() : (lastDayProfit / 1000).toLocaleString('en-US', { minimumFractionDigits: 3, maximumFractionDigits: 3 })} `}
                 

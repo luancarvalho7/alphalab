@@ -1,23 +1,23 @@
 {
-    "logo": "https://i.postimg.cc/L8JQSdgX/logo.webp",
-    "affLink": "https://go.aff.bullsbetaffiliate.com/o42eugpk",
-    "vipCheckout": "https://checkout.perfectpay.com.br/pay/PPU38CNH5PD",
+    "logo": "https://i.postimg.cc/qMvHLnnH/logo.webp",
+    "affLink": "https://btt-pt.hopghpfa.com/pt/casino?partner=p5333p23574p4d61#registration-bonusgit ",
+    "vipCheckout": " ",
 
     "banners": {
-        "img2k": "https://i.postimg.cc/4ddQhJFp/2k.webp",
-        "imgcommunity": "https://i.postimg.cc/gJTqVffQ/Untitled-2.webp",
-        "imgvip": "https://i.postimg.cc/Hn80B6mx/Vip.webp"
+        "img2k": "https://i.postimg.cc/nzJ6QQZ5/2k.webp",
+        "imgcommunity": "https://i.postimg.cc/pd8wTBNz/Untitled-2.webp",
+        "imgvip": "https://i.postimg.cc/RFL21VZ0/Vip.webp"
     },
 
 
     "pageheaderes": {
-        "bonus": "https://i.postimg.cc/zXZ7B15P/webp2.webp",
-        "lives": "https://i.postimg.cc/nVQTpL8D/webp1.webp"
+        "bonus": "https://i.postimg.cc/6p7JsXYH/webp2.webp",
+        "lives": "https://i.postimg.cc/D0Bkhf9N/webp1.webp"
     },
 
-    "vipcta":"https://i.postimg.cc/VNJ0nDcH/vipcta.webp",
+    "vipcta":"https://i.postimg.cc/5NKdk0qY/vipcta.webp",
     "telegram": "https://i.postimg.cc/nVQTpL8D/webp1.webp",
-    "community": "https://chat.whatsapp.com/DSuGgjJsNRoGYlJT0oMew5",
+    "community": " ",
     "memberArea": [
         {
             "title": "",
@@ -28,7 +28,7 @@
     ],
     "extrapages": {
         "bonus": true,
-        "lives": true,
+        "lives": false,
         "tutorial": false
     }
 }

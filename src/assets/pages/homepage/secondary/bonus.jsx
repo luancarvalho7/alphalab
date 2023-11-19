@@ -47,7 +47,7 @@ export function Bonus({ img }) {
                             </defs>
                         </svg>
                         <strong>Aviso:</strong> Recomendamos um depósito
-                        acima de <strong>30R$</strong> para uma <strong> maior assertividade </strong>
+                        acima de <strong>30€</strong> para uma <strong> maior assertividade </strong>
                         dentro do nosso sistema.</p>
                 </div>
             </div>

@@ -51,7 +51,7 @@ export function Card({ data, setSGame, vipAccess=false, checkout }) {
                     </div>
 
                     <div className="cr-profit">
-                        <h1>R$ {formattedProfit}</h1>
+                        <h1>€ {formattedProfit}</h1>
                         <p>Lucro Hoje</p>
                     </div>
 
