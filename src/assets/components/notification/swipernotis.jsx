@@ -127,7 +127,7 @@ export function SwiperNotis({ data }) {
     return {
       type: chooseType(),
       name: createRandomName(index),
-      value: (Math.random() * 100),
+      value: (Math.random() * 1000),
       game: randomGame,
     };
   };

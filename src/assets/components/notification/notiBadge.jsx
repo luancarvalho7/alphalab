@@ -43,7 +43,7 @@ export const NotiBadge = React.memo(({ type = "gift", name = "Gilmar", value = "
     setTimeout(() => setRun(true), 20000)
     return (
         <div className={run ? `nRun notiBadge n-${currentColor}-stroke` : `notiBadge n-${currentColor}-stroke`}>
-            {bcCurrent.type == "gift" ? <GiftIcon /> : <PixIcon />} <h1>{bcCurrent.name} <span className='n-regular'>ganhou</span> <span className={`n-${currentColor}`}>€{type=="gift" ? Math.floor(bcCurrent.value*20) : Math.floor(bcCurrent.value)}</span> <span className='n-regular'>{bcCurrent.type == "gift" ? "no" : "de"}</span>  <span className={`n-${color()}`}>{type == "gift" ? "Sorteio" : `${game}`}</span> </h1>
+            {bcCurrent.type == "gift" ? <GiftIcon /> : <PixIcon />} <h1>{bcCurrent.name} <span className='n-regular'>ganhou</span> <span className={`n-${currentColor}`}>R${type=="gift" ? Math.floor(bcCurrent.value*20) : Math.floor(bcCurrent.value)}</span> <span className='n-regular'>{bcCurrent.type == "gift" ? "no" : "de"}</span>  <span className={`n-${color()}`}>{type == "gift" ? "Sorteio" : `${game}`}</span> </h1>
         </div>
     )
 })
