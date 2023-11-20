@@ -23,7 +23,7 @@ export function ChatStatus({
             </div>
 
             <div className="chatProfit">
-                <h1>€ {formattedProfit}</h1>
+                <h1>R${formattedProfit}</h1>
                 <p>Lucro Hoje</p>
             </div>
         </div>

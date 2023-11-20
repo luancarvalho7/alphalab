@@ -1,8 +1,9 @@
 .bg-gradient {
-    background: linear-gradient(87deg, #DB00FF 5.19%, #8B62FF 91.04%);}
+    background: linear-gradient(87deg, #FFE500 5.19%, #F90 91.04%);
+}
 
 .txt-gradient {
-    background: linear-gradient(87deg, #DB00FF 5.19%, #8B62FF 91.04%);
+    background: linear-gradient(87deg, #FFE500 5.19%, #F90 91.04%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

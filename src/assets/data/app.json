@@ -1,21 +1,21 @@
 {
-    "logo": "https://i.postimg.cc/VN7YvjP1/Logo.webp",
-    "affLink": "",
+    "logo": "https://i.postimg.cc/Qx2gYyC9/logo.webp",
+    "affLink": "https://go.aff.7k-partners.com/q7x4cx49?source_id=app&utm_source=app&utm_medium=app&utm_campaign=app",
     "vipCheckout": " ",
 
     "banners": {
-        "img2k": "https://i.postimg.cc/vm8YG0j3/2k.webp",
-        "imgcommunity": "https://i.postimg.cc/jdVRDxmW/Community.webp",
-        "imgvip": "https://i.postimg.cc/KjTF0wkv/VIP.webp"
+        "img2k": "https://i.postimg.cc/WbF6nvNc/2k.webp",
+        "imgcommunity": "https://i.postimg.cc/435zd45V/community.webp",
+        "imgvip": "https://i.postimg.cc/59ZpD0k2/VIP.webp"
     },
 
 
     "pageheaderes": {
-        "bonus": "https://i.postimg.cc/L6z2LdFx/bg-zero-One.webp",
-        "lives": "https://i.postimg.cc/zDHJDbtZ/bg-Zero-Two.webp"
+        "bonus": "https://i.postimg.cc/TwNgVkBP/bg-01.webp",
+        "lives": "https://i.postimg.cc/pTLKnNG7/bg-02.webp"
     },
 
-    "vipcta":"https://i.postimg.cc/pT4RYRd6/ctavip.webp",
+    "vipcta":"https://i.postimg.cc/zGTCsFHd/vipcta.webp",
     "telegram": "",
     "community": "",
     "memberArea": [

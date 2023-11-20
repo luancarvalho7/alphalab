@@ -33,7 +33,7 @@
 }
 
 .chatProfit h1 {
-    background: linear-gradient(87deg, #DB00FF 5.19%, #8B62FF 91.04%);
+    background: linear-gradient(87deg, #FFD600 5.19%, #FFB762 91.04%);
     font-size: 14px;
     background-clip: text;
     -webkit-background-clip: text;
@@ -57,7 +57,7 @@
     border-radius: 99px;
     padding: 8px 20px;
     box-sizing: border-box;
-    background: linear-gradient(0deg, #0F1021 0%, #010202 100%);
+    background: linear-gradient(0deg, #21190f 0%, #020201 100%);
 }
 
 
@@ -67,7 +67,7 @@
     width: fit-content;
     padding: 5px 11px;
     border-radius: 999px;
-    background: linear-gradient(0deg, #0F1021 0%, #010202 100%);
+    background: linear-gradient(0deg, #211b0f 0%, #020201 100%);
 }
 
 
@@ -120,7 +120,7 @@
 }
 
 .greenGradientText {
-    background: linear-gradient(87deg, #DB00FF 5.19%, #8B62FF 91.04%);
+    background: linear-gradient(87deg, #FFD600 5.19%, #FFB762 91.04%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
