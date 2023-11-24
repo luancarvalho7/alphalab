@@ -1,5 +1,5 @@
 .bglives{
-    background: url("https://i.postimg.cc/C17trhDP/bg-002.webp");
+    background: url("https://i.postimg.cc/VkSK20wJ/live-1.webp");
     background-position-x: center, -10px;
     background-size: cover;
     opacity: 0.5;
@@ -52,7 +52,7 @@
     outline: none;
     border: none;
     border-radius: 999px;
-    box-shadow: 0px 2px 20px 0px rgba(251, 208, 19, 0.35);
+    box-shadow: 0px 2px 20px 0px rgba(173, 251, 19, 0.35);
 }
 .warning{
     text-align: center;

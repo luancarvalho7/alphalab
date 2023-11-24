@@ -224,8 +224,7 @@ function App() {
 
   useEffect(() => {
 
-/*     console.log(gamesData)
- */    if (vipAccess) {
+    if (vipAccess) {
       const newGamesData = vipGamesData.map((gameData, index) => {
         const vip = true; // Setting vip to true
         const { onlinePlayers, profit, analyst } = randomizeGamesData({ ...gameData, vip }, index, vipAccess);
@@ -264,6 +263,10 @@ function App() {
   }, [vipAccess]);
 
 
+  useEffect(() => {
+    console.log(gamesData)
+  }, [gamesData])
+
 
   return (
     <>
@@ -271,21 +274,21 @@ function App() {
       <>
         <Router>
 
-          <Nav vipAccess={vipAccess} logo={appData.logo} checkout={appData.vipCheckout}/>
+          <Nav vipAccess={vipAccess} logo={appData.logo} checkout={appData.vipCheckout} />
           <SwiperNotis data={data} />
 
-          <BottomNav vipAccess={vipAccess} extrapages={appData.extrapages} checkout={appData.vipCheckout}/>
+          <BottomNav vipAccess={vipAccess} extrapages={appData.extrapages} checkout={appData.vipCheckout} />
           <ScrollToTop />
           <Routes>
-            <Route path="/" element={<Home data={gamesData} selectedGame={selectedGame} setSGame={setSGame} vipAccess={false}  checkout={appData.vipCheckout} communityLink={appData.community} banners={appData.banners} vipcta={appData.vipcta}/>} />
-            <Route path="/modevip" element={<Home data={gamesData} selectedGame={selectedGame} setSGame={setSGame} vipAccess={true} setVipAccess={setVipAccess}  checkout={appData.vipCheckout} communityLink={appData.community} banners={appData.banners} vipcta={appData.vipcta}/>} />
+            <Route path="/" element={<Home data={gamesData} selectedGame={selectedGame} setSGame={setSGame} vipAccess={false} checkout={appData.vipCheckout} communityLink={appData.community} banners={appData.banners} vipcta={appData.vipcta} />} />
+            <Route path="/modevip" element={<Home data={gamesData} selectedGame={selectedGame} setSGame={setSGame} vipAccess={true} setVipAccess={setVipAccess} checkout={appData.vipCheckout} communityLink={appData.community} banners={appData.banners} vipcta={appData.vipcta} />} />
             <Route path="/chat" element={<ChatPage
               game={selectedGame.game}
               analystPfp={selectedGame.analystPfp}
               analyst={selectedGame.analyst}
               profit={selectedGame.profit}
               onlinePlayers={selectedGame.onlinePlayers}
-              affLink={affLink}
+              affLink={selectedGame.affLUnique}
               inicio={inicio}
               home={home}
               vipAccess={vipAccess}
@@ -293,8 +296,8 @@ function App() {
               currentDayProfit={selectedGame.currentDayProfit}
             />} />
             <Route path='/bonus' element={<Bonus inicio={inicio} affLink={affLink} img={appData.pageheaderes.bonus}
- />} />
-            <Route path='/lives' element={<Lives img={appData.pageheaderes.lives} telegramLink={appData.community}/>} />
+            />} />
+            <Route path='/lives' element={<Lives img={appData.pageheaderes.lives} telegramLink={appData.community} />} />
             <Route path='/tutorial' element={<Tutorial />} />
 
 

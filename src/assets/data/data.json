@@ -1,208 +1,156 @@
 [
     {
         "game": "NinjaCrash",
-        "vip": true,
+        "vip": false,
         "profit": 13000,
-        "analyst": ["Luiz R.", "Pedro A."],
+        "analyst": [
+            "Luiz R.",
+            "Pedro A."
+        ],
         "onlinePlayers": 58,
         "gameImage": "https://i.postimg.cc/44F4TmXH/ninjacrash.png",
         "analystPfp": "https://i.postimg.cc/P5n9n4DV/pink.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/sj7lv6oa?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
-        "type":"slots"
+        "affLUnique": "https://go.aff.bullsbetaffiliate.com/v2dksikx?utm_source=AlphaFree-ninja",
+        "type": "slots"
     },
     {
         "game": "Mines",
         "vip": false,
         "profit": 10100,
-        "analyst": ["Bryan P.", "Miguel S."],
+        "analyst": [
+            "Bryan P.",
+            "Miguel S."
+        ],
         "onlinePlayers": 200,
         "gameImage": "https://i.postimg.cc/pLd8rNKm/mines.webp",
         "analystPfp": "https://i.postimg.cc/SQ5HDqxh/blue.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/hj1cc2ra?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
+        "affLUnique": "https://go.aff.bullsbetaffiliate.com/zgfh0xmk?utm_source=Alpha-free-mines",
         "type": "slots"
     },
-    {
-        "game": "Mines3x",
-        "vip": true,
-        "profit": 21997,
-        "analyst": ["Ícaro S.", "Gabriel T."],
-        "onlinePlayers": 211,
-        "gameImage": "https://i.postimg.cc/3Rd6jrVz/mines-3x.webp",
-        "analystPfp": "https://i.postimg.cc/SQ5HDqxh/blue.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/hj1cc2ra?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
-        "type": "slots"
-    },
-    
     {
         "game": "Aviator",
         "vip": false,
         "profit": 12300,
-        "analyst": ["Julia N.", "Laura V."],
+        "analyst": [
+            "Julia N.",
+            "Laura V."
+        ],
         "onlinePlayers": 239,
         "gameImage": "https://i.postimg.cc/dQzSGB5Q/aviator-15x.webp",
         "analystPfp": "https://i.postimg.cc/yYZtG5DS/green.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/3tef0mrl?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
-        "type": "crash"  
-    },
-    {
-        "game": "Aviator2x",
-        "vip": true,
-        "profit": 19495,
-        "analyst": ["Felipe M.", "Amanda B."],
-        "onlinePlayers": 239,
-        "gameImage": "https://i.postimg.cc/vmzvj77n/aviator-2x.webp",
-        "analystPfp": "https://i.postimg.cc/yYZtG5DS/green.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/3tef0mrl?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
-        "type": "crash"  
+        "affLUnique": "https://go.aff.bullsbetaffiliate.com/u0kmzxgz?utm_source=Alpha-free-aviator",
+        "type": "crash"
     },
     {
         "game": "AviatorVa",
         "vip": true,
         "profit": 31495,
-        "analyst": ["Dudu A.", "Rafael M."],
+        "analyst": [
+            "Dudu A.",
+            "Rafael M."
+        ],
         "onlinePlayers": 239,
         "gameImage": "https://i.postimg.cc/4dx1TKwS/aviator-va.webp",
         "analystPfp": "https://i.postimg.cc/yYZtG5DS/green.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/3tef0mrl?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
-        "type": "crash"  
+        "affLUnique": "https://go.aff.bullsbetaffiliate.com/u0kmzxgz?utm_source=AlphaViplinks-aviatorvelas",
+        "type": "crash"
     },
     {
         "game": "Spaceman",
         "vip": false,
         "profit": 11150,
-        "analyst": ["Lucca N.", "Paty O."],
+        "analyst": [
+            "Lucca N.",
+            "Paty O."
+        ],
         "onlinePlayers": 101,
         "gameImage": "https://i.postimg.cc/bw9RZXCb/spaceman-15x.webp",
         "analystPfp": "https://i.postimg.cc/P5n9n4DV/pink.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/kvn9go9k?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
-        "type": "crash"
-    },
-    {
-        "game": "Spaceman2x",
-        "vip": true,
-        "profit": 26294,
-        "analyst": ["Vanessa P.", "Sophia L."],
-        "onlinePlayers": 101,
-        "gameImage": "https://i.postimg.cc/t4ddZdMc/spaceman-2x.webp",
-        "analystPfp": "https://i.postimg.cc/P5n9n4DV/pink.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/kvn9go9k?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
+        "affLUnique": "https://go.aff.bullsbetaffiliate.com/bx12merm?utm_source=Alpha-free-spaceman",
         "type": "crash"
     },
     {
         "game": "SpacemanVa",
         "vip": true,
         "profit": 23294,
-        "analyst": ["Isabela Q.", "Teteu R."],
+        "analyst": [
+            "Isabela Q.",
+            "Teteu R."
+        ],
         "onlinePlayers": 101,
         "gameImage": "https://i.postimg.cc/N0g619hj/spaceman-va.webp",
         "analystPfp": "https://i.postimg.cc/P5n9n4DV/pink.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/kvn9go9k?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
+        "affLUnique": "https://go.aff.bullsbetaffiliate.com/bx12merm?utm_source=AlphaViplinks-spacevelas",
         "type": "crash"
     },
     {
         "game": "FortuneTiger",
         "vip": false,
         "profit": 8000,
-        "analyst": ["Victor H.", "Leo I."],
+        "analyst": [
+            "Victor H.",
+            "Leo I."
+        ],
         "onlinePlayers": 220,
         "gameImage": "https://i.postimg.cc/tCkW9Rn0/fortune-tiger.webp",
         "analystPfp": "https://i.postimg.cc/FK967HDj/white.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/rcawu0kc?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
+        "affLUnique": "https://go.aff.bullsbetaffiliate.com/upu1yhy8?utm_source=Alpha-free-fortunetiger",
         "type": "slots"
     },
     {
         "game": "Roulette",
         "vip": false,
         "profit": 19030,
-        "analyst": ["João V.", "Carlos R."],
+        "analyst": [
+            "João V.",
+            "Carlos R."
+        ],
         "onlinePlayers": 223,
         "gameImage": "https://i.postimg.cc/MphTSg52/Roletas-5.webp",
         "analystPfp": "https://i.postimg.cc/jS69x7Qx/yellow.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/96tybpon?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
+        "affLUnique": "https://go.aff.bullsbetaffiliate.com/d4zw7h3b?utm_source=Alpha-free-roleta",
         "type": "casino"
     },
     {
-        "game": "FortuneRabbit",
-        "vip": false,
-        "profit": 17894,
-        "analyst": ["Marcelo J.", "Beatriz K."],
-        "onlinePlayers": 199,
-        "gameImage": "https://i.postimg.cc/pLMYLcq8/fortune-rabbit.webp",
-        "analystPfp": "https://i.postimg.cc/SQ5HDqxh/blue.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/a2gfhxtf?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
-        "type": "slots"
+        "game": "RouletteVIP",
+        "vip": true,
+        "profit": 19030,
+        "analyst": [
+            "Tobias D.",
+            "Pyetro M."
+        ],
+        "onlinePlayers": 223,
+        "gameImage": "https://i.postimg.cc/MphTSg52/Roletas-5.webp",
+        "analystPfp": "https://i.postimg.cc/jS69x7Qx/yellow.png",
+        "affLUnique": "https://go.aff.bullsbetaffiliate.com/xvoxi90q?utm_source=AlphaViplinks-roletavip",
+        "type": "casino"
     },
     {
         "game": "FortuneOx",
         "vip": false,
         "profit": 15933,
-        "analyst": ["Ruan V.", "JH I."],
+        "analyst": [
+            "Ruan V.",
+            "JH I."
+        ],
         "onlinePlayers": 79,
         "gameImage": "https://i.postimg.cc/cCZtNPs4/fortune-ox.webp",
         "analystPfp": "https://i.postimg.cc/yYZtG5DS/green.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/tzct80za?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
+        "affLUnique": "https://go.aff.bullsbetaffiliate.com/491lyrb7?utm_source=Alpha-free-fortuneox",
         "type": "slots"
     },
     {
         "game": "FortuneMouse",
         "vip": true,
         "profit": 21473,
-        "analyst": ["Vitor R.", "Rocha R."],
+        "analyst": [
+            "Vitor R.",
+            "Rocha R."
+        ],
         "onlinePlayers": 79,
         "gameImage": "https://i.postimg.cc/4N9QZRbs/fortune-mouse.webp",
         "analystPfp": "https://i.postimg.cc/P5n9n4DV/pink.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/pqslg7lk?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
+        "affLUnique": "https://go.aff.bullsbetaffiliate.com/8bf7t31n?utm_source=AlphaViplinks-fortunemouse",
         "type": "slots"
-    },
-    {
-        "game": "BacBo",
-        "vip": true,
-        "profit": 26910,
-        "analyst": ["Ícaro S.", "Lilian R."],
-        "onlinePlayers": 178,
-        "gameImage": "https://i.postimg.cc/qqtXz9Pc/bacbo.webp",
-        "analystPfp": "https://i.postimg.cc/FK967HDj/white.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/8v1wexz5?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
-        "type": "casino"
-    },
-    {
-        "game": "DragonTiger",
-        "vip": false,
-        "profit": 28491,
-        "analyst": ["Vini T.", "Luan C."],
-        "onlinePlayers": 117,
-        "gameImage": "https://i.postimg.cc/ZRsxYTMK/dragon-tigger.webp",
-        "analystPfp": "https://i.postimg.cc/jS69x7Qx/yellow.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/c7zshtfx?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
-        "type": "casino"
-    },
-    {
-        "game": "FootballStudio",
-        "vip": true,
-        "profit": 27890,
-        "analyst": ["Amin A.", "Anthony L."],
-        "onlinePlayers": 191,
-        "gameImage": "https://i.postimg.cc/dQXjzVC5/football-studio.webp",
-        "analystPfp": "https://i.postimg.cc/SQ5HDqxh/blue.png",
-        "ifrCassinoPix": "https://go.aff.7k-partners.com/593v03c1?source_id=app",
-        "ifrSkyBet":"https://eskybet.com/cadastro?afiliado=00",
-        "type": "casino"
-    
     }
 ]

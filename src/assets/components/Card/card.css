@@ -14,15 +14,15 @@
     padding: 10px;
     border-radius: 5px;
 
-    background: linear-gradient(180deg, #000 43.54%, #21190F 100%);
+    background: linear-gradient(0deg, #0F2114 0%, #010203 100%);
 }
 
 .cr-stroke {
     width: fit-content;
     border-radius: 5px;
     padding: 1px;
-    background: linear-gradient(180deg, #181716 10.87%, #B5A366 41.26%, #FF8D07 100%);
-    ;
+    background: linear-gradient(0deg, #26FF07 0%, #61FFA0 23.97%, rgba(255, 255, 255, 0.00) 85.84%);
+    /* Status Info */
 }
 
 .cardDenied {
@@ -76,7 +76,7 @@
     border-radius: 999px;
     height: fit-content;
 
-    background: linear-gradient(87deg, rgba(255, 230, 0, 0.15) 5.19%, rgba(255, 242, 123, 0.15) 91.04%);
+    background: linear-gradient(87deg, rgba(36, 255, 0, 0.15) 5.19%, rgba(123, 255, 176, 0.15) 91.04%);
 }
 
 .status-players p {
@@ -121,7 +121,7 @@ User Profile*/
 }
 
 .cr-profit h1 {
-    background: linear-gradient(87deg, #FFD600 5.19%, #FFB762 91.04%);
+    background: var(--Gradient, linear-gradient(87deg, #24FF00 5.19%, #7BFFB0 91.04%));
     font-size: 14px;
     background-clip: text;
     -webkit-background-clip: text;

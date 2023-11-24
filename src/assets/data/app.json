@@ -1,21 +1,17 @@
 {
-    "logo": "https://i.postimg.cc/Qx2gYyC9/logo.webp",
-    "affLink": "https://go.aff.7k-partners.com/q7x4cx49?source_id=app&utm_source=app&utm_medium=app&utm_campaign=app",
+    "logo": "https://i.postimg.cc/m2GXyknk/green-Webp-Logo.webp",
+    "affLink": "https://go.aff.bullsbetaffiliate.com/u0kmzxgz?utm_source=Alpha-free-aviator",
     "vipCheckout": " ",
-
     "banners": {
-        "img2k": "https://i.postimg.cc/WbF6nvNc/2k.webp",
-        "imgcommunity": "https://i.postimg.cc/435zd45V/community.webp",
-        "imgvip": "https://i.postimg.cc/59ZpD0k2/VIP.webp"
+        "img2k": "https://i.postimg.cc/YSjbCWvn/demo-ban01.png",
+        "imgcommunity": "https://i.postimg.cc/057ZjxNs/demo-ban02.png",
+        "imgvip": "https://i.postimg.cc/4yv1Sv0d/demo-ban-VIP.png"
     },
-
-
     "pageheaderes": {
-        "bonus": "https://i.postimg.cc/TwNgVkBP/bg-01.webp",
-        "lives": "https://i.postimg.cc/pTLKnNG7/bg-02.webp"
+        "bonus": "https://i.postimg.cc/JnkxbCcj/demo-bg01.png",
+        "lives": "https://i.postimg.cc/RhxRdpXy/demo-bg02.png"
     },
-
-    "vipcta":"https://i.postimg.cc/zGTCsFHd/vipcta.webp",
+    "vipcta": "https://i.postimg.cc/zGTCsFHd/vipcta.webp",
     "telegram": "",
     "community": "",
     "memberArea": [
