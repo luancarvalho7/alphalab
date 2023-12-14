@@ -307,6 +307,15 @@ export function ChatPage({
 
         }
 
+
+        if (game === "RouletteVIP") {
+            sinal = getRouletteSignal();
+            finalMessage = `${sinal} <br/>
+            Vcs tem até as ${timeLimit}
+            `
+            greenMessage = getRandomMessage()
+        }
+
         /*VIP GAMES*/
 
         if (game === "FortuneRabbit") {
@@ -316,6 +325,16 @@ export function ChatPage({
             Sinalziho válido até ${timeLimit} <br/>
             ${sinal} <br/>
             Coelhinho ta pagando!
+            `
+            greenMessage = getRandomMessage()
+
+        }
+        if (game === "FortuneMouse") {
+            sinal = getFortuneSignal();
+            finalMessage = `
+            
+            Sinalziho válido até ${timeLimit} <br/>
+            ${sinal} <br/>
             `
             greenMessage = getRandomMessage()
 
